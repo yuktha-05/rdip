@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+.center {
+        padding-left: 550px;
+        color: #FF3366;
+    }
+    #my img {
+        float: left;
+        
+    }
+    .serif {
+                font-family: "Times New Roman", Times, serif;
+                color: #CC00FF;
+                padding-bottom: 600px;
+             }
+             .hidden {
+                visibility: hidden;
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D2691E;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: ##DC143C;
+}
+
+.active {
+  background-color: #5F9EA0;
+}
+</style>
+<head>
+	<title>Registration Form</title>
+
+<body>
+    <h1 class="hidden">HOMEPAGE</h1><br>
+    <h1 class="serif" style="text-align: right; position:absolute;top:0;right:0;"><a href="https://serc.iiit.ac.in/rdip">RDIP</a></h1>
+    <div id="my">
+        <a href="https://www.iiit.ac.in/">
+        <p><img src="https://www.iiit.ac.in/img/iiit-new.png" alt="IIIT-Hyderabad" style="width: 150px; height: 100px; position:absolute;top:0;left:0;"></p></a></div><br>
+        <ul>
+            <li><a class="active" href="file:///C:/Users/Dell/rdip/rdip/homepage.html">Home</a></li>
+            <li><a href="file:///C:/Users/Dell/rdip/rdip/registration.html">Registration Form</a></li>
+        </ul><br>
+
+	<h2>Fill in your details</h2>
+
+	<form action="file:///C:/Users/Dell/rdip/rdip/details.html" method="GET">
+        <form action="" method="post" id="subnewtopicform" />
+
+                First Name* :
+                <input type="text" name="title" onkeyup="if(this.textLength != 0) {subnewtopic.disabled = false} else {subnewtopic.disabled = true}"><br><br>
+
+<br/>
+
+		
+		<label for="lname">Last Name* :</label><br><br>
+		<input type="text" id="lname" name="lname"><br><br>
+		<label for="clgname">College Name* :</label><br><br>
+		<input type="text" id="clgname" name="clgname"><br><br>
+		<label for="email">E-mail Address* :</label><br><br>
+		<input type="text" id="email" name="eamil"><br><br>
+		<label for="phnno">Phone Number :</label><br><br>
+		<input type="text" id="phnno" name="phnoo"><br><br>
+		<label for="yearofstudying">Gender :</label><br>
+		<input type="radio" id="Male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="Other" name="Gender" value="Other">
+        <label for="other">Other</label><br><br>
+        
+        <label for="branch">Reason for rdip :</label><br>
+        <input type="radio" id="Html" name="reason" value="Html">
+        <label for="html">Html</label><br>
+        <input type="radio" id="CSS" name="reason" value="CSS">
+        <label for="CSS">CSS</label><br>
+        <input type="radio" id="JavaScript" name="reason" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br><br>
+        <label for="declaring">I Agree :</label><br><br>
+        <input type="radio" id="I declare above details given by me are correct" name="declare" value="I declare above details given by me are correct">
+        <label for="I declare above details given by me are correct">I declare above details given by me are correct</label><br><br>
+        
+        <input type="submit" value="Submit" class="button-primary" name="subnewtopic" id="subnewtopic" disabled="disabled" /><a href="file:///C:/Users/Dell/rdip/rdip/details.html"></a> 
+        <button type="reset" value="Reset">Reset</button>
+
+    </form>
+</body>
+</head>
+</html>
