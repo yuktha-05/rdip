@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: skyblue;
+}
+
+.palincheck input[type=text] {
+  width: 70%;
+  height: 50px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin-left: 150px;
+  box-sizing: border-box;
+  transition: .3s;
+  
+}
+.palincheck input[type=text]: focus {
+  border-color: royalblue;
+  box-shadow: 0 0 8px 0 royalblue;
+
+}
+
+.palincheck h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.palincheck .btn button {
+  border: 0px;
+  margin-top: 15px;
+  margin-left: 550px;
+  padding: 10px;
+  text-align: center;
+  width: 10%;
+  background: lime;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+.anagcheck input[type=text] {
+  width: 70%;
+  height: 50px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin-left: 150px;
+  box-sizing: border-box;
+  transition: .3s;
+  
+}
+.anagcheck input[type=text]: focus {
+  border-color: royalblue;
+  box-shadow: 0 0 8px 0 royalblue;
+
+}
+
+.anagcheck h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.anagcheck .but button{
+  border: 0px;
+  margin-top: 15px;
+  margin-left: 550px;
+  padding: 10px;
+  text-align: center;
+  width: 10%;
+  background: lime;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}

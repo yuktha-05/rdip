@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Validation Form</title>
+	<link rel="stylesheet" href="validation_1.css">
+	<script src="assignment2.js"></script>
+</head>
+<body>
+
+<div class="validator">
+  <h2>FILL YOUR DETAILS</h2>
+  <div id="msg"></div>
+  <form id="validationform" onsubmit="return validation();">
+    <div class="ip">
+        <input type="text" placeholder="Name" id="fullname">
+    </div>
+    
+    <div class="ip">
+        <input type="text" placeholder="Phone Number" id="phoneno">
+    </div>
+    <div class="ip">
+        <input type="text" placeholder="Email Address" id="emailid">
+    </div>
+   
+    <div class="btw">
+        <input type="submit">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

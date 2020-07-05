@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+	<title>Basic Calculator</title>
+	<link href="calculator_d.css" rel="stylesheet">
+	<script src="assignment2.js" defer></script>
+</head>
+<body>
+	<div class="basiccalculator">
+		<div class="op">
+			<div data-prev-Op class="prev-Op"></div>
+			<div data-cur-Op class="cur-Op"></div>
+		</div>
+		<button data-clear>C</button>
+		<button data-delete>DEL</button>
+		<button data-operation>/</button>
+		<button data-operation>*</button>
+		<button data-number>1</button>
+		<button data-number>2</button>
+		<button data-number>3</button>
+		<button data-operation>+</button>
+		<button data-number>4</button>
+		<button data-number>5</button>
+		<button data-number>6</button>
+		<button data-operation>-</button>
+		<button data-number>7</button>
+		<button data-number>8</button>
+		<button data-number>9</button>
+		<button data-operation>%</button>
+		<!--<button data-operation>Sqrt</button>-->
+		<input type="button" value="Sqrt" id="keys" onclick="sqr()">
+		<button data-number>0</button>
+		<input type="button" value="Abs" id="keys" onclick="ab()">
+		<!--<button data-operation>Abs</button>-->
+		<button data-equalsto>=</button>
+
+		</div>
+</body>
+</html>
